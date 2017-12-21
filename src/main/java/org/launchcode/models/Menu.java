@@ -23,11 +23,11 @@ public class Menu {
     @ManyToMany
     private List<Cheese> cheeses = new ArrayList<>();
 
-    public Cheese(String name) {
+    public Menu(String name) {
         this.name = name;
     }
 
-    public Cheese() {}
+    public Menu() {}
 
     public int getId() {
         return id;
